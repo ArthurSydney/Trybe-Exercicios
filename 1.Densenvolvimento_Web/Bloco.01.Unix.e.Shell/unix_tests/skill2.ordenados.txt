@@ -1,0 +1,10 @@
+Bash
+CSS
+Git
+Github
+HTML
+Internet
+Java
+JavaScript
+Phyton
+Unix
