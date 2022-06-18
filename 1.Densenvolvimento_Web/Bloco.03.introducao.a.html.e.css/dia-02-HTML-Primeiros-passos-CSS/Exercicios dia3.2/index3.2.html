@@ -5,25 +5,39 @@
     <title>HTML</title>
     <style>
         h1 {
-            width: 65px; color:orange;
+            font-family: sans-serif;
         }
 
-        #nao-ordenado {
-            background-color: blue;
+        p {
+            font-weight: 600; font-size: 3em;
         }
 
-        .color-background {
-            background-color: pink;
+        body{
+            font-size: 16px;line-height: 50px;text-align: center; text-decoration:solid;
         }
+
+        #amarelo {
+            background-color: yellow;
+        }
+
+        #vermelho {
+            background-color: red;
+        }
+
+        #brown {
+            background-color: brown;
+        }
+
+        
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
-    <p class="color-background">Qual é a sua cor favorita?</p>
-    <ul class="color-background">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <p>Qual é a sua cor favorita?</p>
+    <ul>
+      <li id="amarelo">Amarelo</li>
+      <li id="vermelho">Vermelho</li>
+      <li id="brown">Marrom</li>
     </ul>
   </body>
 </html>
